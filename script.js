@@ -52,7 +52,7 @@ function problemFive(){
     
     arrFunc([2,3,4]);
     arrFunc(3);
-    
+
     // 2nd way 
     function arrFunc(input){
         return console.log(input instanceof Array)
@@ -60,4 +60,15 @@ function problemFive(){
     
     arrFunc([2,3,4]);
     arrFunc(2);
+}
+
+// 6. Ekti function likho jetar input a ekti array thakbe ar oi function ti input er array ti clone
+// kore return korbe.
+function problemSix(){
+    function cloneArray(inp){
+        var clone = [...inp];
+        return console.log(clone);
+    }
+    
+    cloneArray([3,2,5,2]);
 }
