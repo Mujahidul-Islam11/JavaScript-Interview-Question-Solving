@@ -35,7 +35,7 @@ function problemFour() {
 
   var sum = 0;
   arr.forEach(function (value) {
-    if (typeof value !== "string") {
+    if (typeof value !== "number") {
       sum += value;
     }
   });
