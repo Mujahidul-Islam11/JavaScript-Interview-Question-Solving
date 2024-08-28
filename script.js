@@ -45,10 +45,19 @@ function problemFour() {
 
 // 5. Ekta function er moddhe eta input naw, ar oi input (parameter) ti array ki nah seta return koro.
 function problemFive(){
+    // 1st way
     function arrFunc(input){
         return console.log(Array.isArray(input))
     }
     
     arrFunc([2,3,4]);
     arrFunc(3);
+    
+    // 2nd way 
+    function arrFunc(input){
+        return console.log(input instanceof Array)
+    }
+    
+    arrFunc([2,3,4]);
+    arrFunc(2);
 }
