@@ -18,11 +18,27 @@ function problemTwo() {
   });
 }
 
-// 3. Array er prottek element er sum ber koro with forEach
-var arr3 = [1, 2, 34, 5];
+// 3. Array er prottek value er sum ber koro with forEach
+function problemThree() {
+  var arr3 = [1, 2, 34, 5];
 
-var sum = 0;
-arr3.forEach(function(value){
+  var sum = 0;
+  arr3.forEach(function (value) {
     sum += value;
-})
-console.log(sum)
+  });
+  console.log(sum);
+}
+
+// 4. Array er sob value er sum ber koro ar jodi kono value string hoye thake tobe skip koro
+function problemFour() {
+  var arr = [1, 23, 5, "45", 3];
+
+  var sum = 0;
+  arr.forEach(function (value) {
+    if (typeof value !== "string") {
+      sum += value;
+    }
+  });
+
+  console.log(sum);
+}
