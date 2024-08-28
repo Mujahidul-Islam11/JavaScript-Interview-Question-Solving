@@ -42,3 +42,13 @@ function problemFour() {
 
   console.log(sum);
 }
+
+// 5. Ekta function er moddhe eta input naw, ar oi input (parameter) ti array ki nah seta return koro.
+function problemFive(){
+    function arrFunc(input){
+        return console.log(Array.isArray(input))
+    }
+    
+    arrFunc([2,3,4]);
+    arrFunc(3);
+}
