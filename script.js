@@ -78,3 +78,12 @@ function problemSix(){
 // oi function ti oi number onujai array theke element return korbe.
 // example:- func([1,24,5546,67], 3) array er sathe 3 pass korchi tai function ti  3 ta element 
 // return korbe array theke.
+function getter(inp, get=1){
+var cloned = [];
+for(var i = 0; i<get; i++){
+  cloned.push(inp[i])
+}
+return console.log(cloned)
+}
+
+getter([3,45,56,75,6], 3)
