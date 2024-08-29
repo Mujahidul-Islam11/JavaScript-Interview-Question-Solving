@@ -72,3 +72,5 @@ function problemSix(){
     
     cloneArray([3,2,5,2]);
 }
+
+// 7. Ekti function likho jeta ekti array nei input hisebe ar oi array er first element take return kore.
