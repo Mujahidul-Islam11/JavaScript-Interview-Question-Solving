@@ -73,4 +73,8 @@ function problemSix(){
     cloneArray([3,2,5,2]);
 }
 
-// 7. Ekti function likho jeta ekti array nei input hisebe ar oi array er first element take return kore.
+// 7. Ekti function likho ekti array first element ke get korar jonno. 
+// Ekti jeikono "n" (number) pass korle parameter hisebe
+// oi function ti oi number onujai array theke element return korbe.
+// example:- func([1,24,5546,67], 3) array er sathe 3 pass korchi tai function ti  3 ta element 
+// return korbe array theke.
