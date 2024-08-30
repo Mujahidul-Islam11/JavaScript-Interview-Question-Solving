@@ -91,7 +91,8 @@ function problemSeven(){
 }
 
 // 8. Ekti function likho jeti ekti array er sob string element ba values guloke sum kore return korbe
-function problemSeven(){
+function problemEight(){
+  // 1st solution
   function joiner(inp){
     var summedEl = '';
     inp.forEach(function(el){
@@ -101,4 +102,12 @@ function problemSeven(){
     }
     
     joiner(["anana", "banana", "sanana", "manana"])
+
+    // 2nd solution 
+    
+function joiner(inp){
+  return console.log(inp.join(","));
+  }
+  
+  joiner(["anana", "banana", "sanana", "manana"])
 }
