@@ -131,8 +131,32 @@ var ans = new obj3();
 }
 
 // 10. What is hof?
-function hof(inp){
-  return function(inp2){console.log(inp+inp2)}
+function problemTen(){
+  function hof(inp){
+    return function(inp2){console.log(inp+inp2)}
+  }
+  
+  hof(10)(20)
 }
 
-hof(10)(20)
+// 11. this, apply, call, bind
+function thisFunc(){
+  // this = haramzada keyword
+// global = window
+console.log("global:",this)
+// function = window
+function winThis(){
+console.log("function:",this)
+}
+winThis()
+// method = object
+var obj = {
+  name: "dinar",
+  sayname: function(){
+    console.log("method:",this)
+  }
+}
+obj.sayname()
+// func es5 inside method = window
+// func es6 inside method = object
+}
