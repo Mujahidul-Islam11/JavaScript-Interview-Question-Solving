@@ -111,3 +111,28 @@ function joiner(inp){
   
   joiner(["anana", "banana", "sanana", "manana"])
 }
+
+
+// 9. Bibhinno way te JavaScript object create koro
+function problemNine(){
+  var obj = {} // Object literal
+var obj1 = Object.create(null);
+function obj2(){
+  this.name = "Dinar"
+}
+new obj2()
+
+class obj3{
+ constructor(){}
+  a = 12;
+}
+var ans = new obj3();
+// new - empty object
+}
+
+// 10. What is hof?
+function hof(inp){
+  return function(inp2){console.log(inp+inp2)}
+}
+
+hof(10)(20)
