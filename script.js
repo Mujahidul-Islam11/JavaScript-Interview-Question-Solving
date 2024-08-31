@@ -174,3 +174,16 @@ function problemTwelve(){
   console.log(ans) // map created na imaginary array
 }
 // map - map ekdom forEach er motoi kaj kore kintu map return korte pare ar foreach parenah
+
+// 13. ekti array er prottekti element er upor map calaw ar element er length jodi 5 hoi tobe p
+// tag er moddhe add koro, ar nah hole span er moddhe add koro
+const arr = ["banana", "apple", "coconut", "guava"];
+
+arr.map(function(arrEl){
+  if(arrEl.length === 5){
+
+  }
+  else{
+    
+  }
+})
