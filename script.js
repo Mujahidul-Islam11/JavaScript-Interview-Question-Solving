@@ -177,13 +177,17 @@ function problemTwelve(){
 
 // 13. ekti array er prottekti element er upor map calaw ar element er length jodi 5 hoi tobe p
 // tag er moddhe add koro, ar nah hole span er moddhe add koro
-const arr = ["banana", "apple", "coconut", "guava"];
+function problemThirteen(){
+  const arr = ["banana", "apple", "coconut", "guava"];
 
-arr.map(function(arrEl){
+const ans = arr.map(function(arrEl){
   if(arrEl.length === 5){
-
+    return `<p>${arrEl}<p/>`
   }
   else{
-    
+    return `<span>${arrEl}<span/>`
   }
 })
+
+console.log(ans)
+}
