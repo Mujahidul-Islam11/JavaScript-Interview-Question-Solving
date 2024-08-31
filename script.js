@@ -203,3 +203,15 @@ const ans = arr.map(function(arrEl){
 
 console.log(ans)
 }
+
+// filter
+// 15. ekti array of object theke jei object er bhitore dinar namer property ache ota filter kore niye aso
+function problemFifteen(){
+  var arr = [{name:"dinar", age: 19}, {name:"dinari", age:18}, {name: "ranid", age:null}]
+
+const ans = arr.filter(function(arrEl){
+  return arrEl.name === "dinar"
+})
+
+console.log(ans)
+}
