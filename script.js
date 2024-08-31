@@ -140,23 +140,29 @@ function problemTen(){
 }
 
 // 11. this, apply, call, bind
-function thisFunc(){
-  // this = haramzada keyword
-// global = window
-console.log("global:",this)
-// function = window
-function winThis(){
-console.log("function:",this)
-}
-winThis()
-// method = object
-var obj = {
-  name: "dinar",
-  sayname: function(){
-    console.log("method:",this)
+function problemEleven(){
+  function thisFunc(){
+    // this = haramzada keyword
+  // global = window
+  console.log("global:",this)
+  // function = window
+  function winThis(){
+  console.log("function:",this)
+  }
+  winThis()
+  // method = object
+  var obj = {
+    name: "dinar",
+    sayname: function(){
+      console.log("method:",this)
+    }
+  }
+  obj.sayname()
+  // func es5 inside method = window
+  // func es6 inside method = object
   }
 }
-obj.sayname()
-// func es5 inside method = window
-// func es6 inside method = object
-}
+
+
+// array - map, filter
+// 12. ekti array er upor map calaw ar prottekti element er sathe dui sum kore arekti array te rakho
