@@ -217,8 +217,8 @@ console.log(ans)
 }
 
 // 16. ekti array er upor filter calale filter sobsomoi boolean return kora cai
-
-var arr = [1,3,4,56,4];
+function problemSixteen(){
+  var arr = [1,2,4,56,4];
 (arr.filter(function(el){
   return true // true dile el element gula nije nije imaginary array te store hoye jabe, ar false dile hobe nah
 }))
@@ -230,3 +230,14 @@ const ans = arr.filter(function(el){
 })
 
 console.log(ans)
+}
+
+// 17. array er moddhe emon sob naam jader moddhe "a" ache oi naam gula remove kore daw
+function problemSeventeen(){
+  var arr = ["dinar", "ema", "ranid", "ame", "ee", "dd"];
+const ans = arr.filter(function(el){
+  return !el.includes("a")
+})
+
+console.log(ans)
+}
