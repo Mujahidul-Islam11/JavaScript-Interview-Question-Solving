@@ -215,3 +215,18 @@ const ans = arr.filter(function(arrEl){
 
 console.log(ans)
 }
+
+// 16. ekti array er upor filter calale filter sobsomoi boolean return kora cai
+
+var arr = [1,3,4,56,4];
+(arr.filter(function(el){
+  return true // true dile el element gula nije nije imaginary array te store hoye jabe, ar false dile hobe nah
+}))
+
+const ans = arr.filter(function(el){
+  if(el%2 ==0){
+    return true
+  }
+})
+
+console.log(ans)
