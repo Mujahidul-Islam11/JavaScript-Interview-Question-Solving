@@ -191,3 +191,15 @@ const ans = arr.map(function(arrEl){
 
 console.log(ans)
 }
+
+// 14. ekti array of objects ache jeikhane onek gulo data ache and oi data gulor name ke niye arekti
+// array toiry koro
+function problemFourteen(){
+  var arr = [{name:"dinar", age: 19}, {name:"dinari", age:18}, {name: "ranid", age:null}]
+
+const ans = arr.map(function(arrEl){
+  return arrEl.name
+})
+
+console.log(ans)
+}
