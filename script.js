@@ -166,3 +166,11 @@ function problemEleven(){
 
 // array - map, filter
 // 12. ekti array er upor map calaw ar prottekti element er sathe dui sum kore arekti array te rakho
+function problemTwelve(){
+  const arr = [1,2,3,4];
+const clonedArr = [];
+arr.map(function(arrEl){
+  clonedArr.push(arrEl + 2)
+})
+console.log(clonedArr)
+}
