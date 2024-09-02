@@ -238,6 +238,6 @@ function problemSeventeen(){
 const ans = arr.filter(function(el){
   return !el.includes("a")
 })
-
 console.log(ans)
 }
+
