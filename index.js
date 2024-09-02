@@ -37,8 +37,16 @@ function checkInteger() {
 }
 
 // make this work: duplicate([1,2,3,4]) -> [1,2,3,4,1,2,3,4]
-
+function duplicateArray(){  
 function duplicate(arr){
     return console.log(arr.concat(arr))
 }
 duplicate([1,2,3,4])
+}
+
+// reverse a number
+function reverseNum(num){
+    return console.log(Number(num.toString().split("").reverse().join("")))
+}
+
+reverseNum(25)
