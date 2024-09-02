@@ -1,9 +1,28 @@
 // reverse a string
-var str = "Mojahidul Islam Osmani (Dinar)";
+function reverseString() {
+  var str = "Mojahidul Islam Osmani (Dinar)";
 
-var fullstring = str.split(" ")
-.map(function(sstr){
-    return sstr.split("").reverse().join("")
-})
+  var fullstring = str.split(" ").map(function (sstr) {
+    return sstr.split("").reverse().join("");
+  });
 
-console.log(fullstring.join(" "));
+  console.log(fullstring.join(" "));
+}
+
+// check a value wether it's an array or not
+function checkArray() {
+  function abcd(elem) {
+    return console.log(Array.isArray(elem));
+  }
+
+  abcd([]);
+  abcd({});
+}
+
+// empty an array without reset, without any loop and also without using pop
+function emptyArray() {
+  var arr = [1, 2, 3, 4, 5, 5];
+  arr.length = 0;
+  console.log(arr);
+}
+
