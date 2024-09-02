@@ -35,3 +35,10 @@ function checkInteger() {
     console.log("decimal");
   }
 }
+
+// make this work: duplicate([1,2,3,4]) -> [1,2,3,4,1,2,3,4]
+
+function duplicate(arr){
+    return console.log(arr.concat(arr))
+}
+duplicate([1,2,3,4])
