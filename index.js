@@ -48,5 +48,5 @@ duplicate([1,2,3,4])
 function reverseNum(num){
     return console.log(Number(num.toString().split("").reverse().join("")))
 }
-
+// note:- split -> can only be used on strings, reverse -> can only be used on array's, 
 reverseNum(25)
