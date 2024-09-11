@@ -45,8 +45,20 @@ duplicate([1,2,3,4])
 }
 
 // reverse a number
-function reverseNum(num){
+function reversingNum(){
+  function reverseNum(num){
     return console.log(Number(num.toString().split("").reverse().join("")))
 }
 // note:- split -> can only be used on strings, reverse -> can only be used on array's, 
 reverseNum(25)
+}
+
+// 12123%10 = 3 jei kono number ke modulus 10 diye bhag korle sobsomoi last digit tai ase -> 234234%10 = 4
+
+// Ekti function likho jeti ekti number er sesh digit ta return kore
+
+function lastDigit(num){
+  return console.log(num % 10)
+}
+
+lastDigit(1232323)
