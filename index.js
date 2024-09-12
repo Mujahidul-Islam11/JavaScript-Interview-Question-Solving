@@ -55,7 +55,7 @@ reverseNum(25)
 
 // 12123%10 = 3 jei kono number ke modulus 10 diye bhag korle sobsomoi last digit tai ase -> 234234%10 = 4
 
-// Ekti function likho jeti ekti number er sesh digit ta return kore
+// Ekti function likho jeti ekti number er last digit ti return kore
 
 function lastDigit(num){
   return console.log(num % 10)
